@@ -1,5 +1,5 @@
 {
-  "name": "react-pikaday-component",
+  "name": "@reaktor/react-pikaday-component",
   "version": "2.1.5-field-type",
   "description": "React component wrapper around Pikaday.js",
   "main": "index.js",
@@ -28,9 +28,9 @@
   "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/voronianski/react-pikaday-component/issues"
+    "url": "https://github.com/reaktor/react-pikaday-component/issues"
   },
-  "homepage": "https://github.com/voronianski/react-pikaday-component#readme",
+  "homepage": "https://github.com/reaktor/react-pikaday-component#readme",
   "devDependencies": {
     "ava": "^0.13.0",
     "babel-cli": "^6.6.5",
@@ -61,5 +61,9 @@
     "webpack": "^1.12.14",
     "webpack-umd-external": "^1.0.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reaktor/react-pikaday-component.git"
+  }
 }
