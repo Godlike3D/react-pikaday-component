@@ -1,6 +1,6 @@
 {
   "name": "@reaktor/react-pikaday-component",
-  "version": "2.1.6",
+  "version": "2.2.0",
   "description": "React component wrapper around Pikaday.js",
   "main": "index.js",
   "directories": {
