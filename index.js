@@ -82,6 +82,7 @@ var ReactPikadayComponent = function (_React$Component) {
         value: function render() {
             var _props = this.props,
                 id = _props.id,
+                defaultValue = _props.defaultValue,
                 type = _props.type,
                 className = _props.className,
                 name = _props.name,
@@ -96,6 +97,7 @@ var ReactPikadayComponent = function (_React$Component) {
                 id: id,
                 type: type,
                 ref: 'pikaday',
+                defaultValue: defaultValue,
                 name: name,
                 className: className,
                 style: style,
@@ -186,6 +188,7 @@ ReactPikadayComponent.propTypes = {
     id: _propTypes2.default.string,
     type: _propTypes2.default.string,
     value: _propTypes2.default.instanceOf(Date),
+    defaultValue: _propTypes2.default.string,
     onChange: _propTypes2.default.func,
     disabled: _propTypes2.default.bool,
     placeholder: _propTypes2.default.string,

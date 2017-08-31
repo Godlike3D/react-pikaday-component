@@ -11,6 +11,7 @@ class ReactPikadayComponent extends React.Component {
         id: PropTypes.string,
         type: PropTypes.string,
         value: PropTypes.instanceOf(Date),
+        defaultValue: PropTypes.string,
         onChange: PropTypes.func,
         disabled: PropTypes.bool,
         placeholder: PropTypes.string,
@@ -64,13 +65,14 @@ class ReactPikadayComponent extends React.Component {
     }
 
     render() {
-        const { id, type, className, name, tabIndex, disabled, placeholder, readOnly, style } = this.props;
+        const { id, defaultValue, type, className, name, tabIndex, disabled, placeholder, readOnly, style } = this.props;
 
         return (
             <input
                 id={id}
                 type={type}
                 ref="pikaday"
+                defaultValue={defaultValue}
                 name={name}
                 className={className}
                 style={style}
